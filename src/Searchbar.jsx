@@ -30,7 +30,7 @@ function Searchbar() {
         if (query) {
             fetchData(query);
         } else {
-            setProblems([]); // Clear the problems list if query is empty
+            setProblems([]);
         }
     }, [query]);
 
